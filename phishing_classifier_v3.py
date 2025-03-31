@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 
 # 📥 Load CSV (adjust path if needed)
-file_path = 'C:/Users/suppe/OneDrive/github/ml-for-security/data/Phishing_Email.csv'
+file_path = 'C:/myfolder/github/ml-for-security/data/Phishing_Email.csv'
 df = pd.read_csv(file_path, usecols=["Email Text", "Email Type"])
 
 print(f"✅ Loaded dataset with shape: {df.shape}")
