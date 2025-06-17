@@ -1,0 +1,26 @@
+[
+  {
+    "subdomain": "randomorg-app.s3.amazonaws.com",
+    "points_to": "s3-1-w.amazonaws.com"
+  },
+  {
+    "subdomain": "convention.oldtimephotos.org.s3.amazonaws.com",
+    "points_to": "s3-us-west-2-w.amazonaws.com"
+  },
+  {
+    "subdomain": "anon-cp.storagegateway.s3.amazonaws.com",
+    "points_to": "s3-w.ap-south-1.amazonaws.com"
+  },
+  {
+    "subdomain": "s3.amazonaws.com",
+    "points_to": null
+  },
+  {
+    "subdomain": "*.s3.amazonaws.com",
+    "points_to": "s3-1-w.amazonaws.com"
+  },
+  {
+    "subdomain": "aws.default.s3.amazonaws.com",
+    "points_to": "s3-w.eu-north-1.amazonaws.com"
+  }
+]
