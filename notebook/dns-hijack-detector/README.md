@@ -12,13 +12,21 @@ dns-hijack-detector/
 │ └── resolved_records.json # CNAME mappings (generated)
 
 ├── src/
+
 │ ├── collect_subdomains.py # Fetch subdomains from crt.sh
+
 │ ├── resolve_cname.py # Resolve CNAME of subdomains
+
 │ ├── dns_hijack_detector.py # Main script to generate data
+
 │ ├── detect_hijack.py # Flags suspicious subdomains
+
 │ ├── build_graph.py # Builds and saves DNS graph
+
 │ └── dns_graph_s3_amazonaws_com.png # Output graph image (generated)
+
 ├── requirements.txt # Required Python libraries
+
 └── README.md # You're here!
 
 
@@ -146,7 +154,7 @@ You will see:
  - src/dns_graph_s3_amazonaws_com.png → Visual graph image of DNS paths
  - Console → Flags suspicious subdomains (if any)
 
-##📢 Coming Soon (You Can Add These)
+## 📢 Coming Soon (You Can Add These)
 
  - Export suspicious results to CSV
  - Email alert for risky CNAMEs
