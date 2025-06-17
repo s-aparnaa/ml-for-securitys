@@ -5,7 +5,7 @@ This project helps detect **subdomain hijacking** by building a DNS graph and id
 ---
 
 ## 📁 Folder Structure
-dns-hijack-detector/
+dns-hijack-detector/        
 ├── data/
 │ └── resolved_records.json # CNAME mappings (generated)
 ├── src/
@@ -137,24 +137,28 @@ You will see:
  - Which subdomains resolve to unknown or expired platforms
  - Visual structure of your DNS/CNAME setup
 
-##📌 Example Output
+## 📌 Example Output
+
  - data/resolved_records.json → Contains raw subdomain-to-CNAME mappings
  - src/dns_graph_s3_amazonaws_com.png → Visual graph image of DNS paths
  - Console → Flags suspicious subdomains (if any)
 
 ##📢 Coming Soon (You Can Add These)
+
  - Export suspicious results to CSV
  - Email alert for risky CNAMEs
  - Graph clustering by region or service
  - Integration with WHOIS / RDAP data
 
-##🧠 Credits & Inspiration
+## 🧠 Credits & Inspiration
+
 Built as a lightweight, Python-only solution to visualize and audit DNS CNAME mappings for security use cases like:
  -Subdomain hijacking
  -Misconfigured DNS entries
  -Security posture monitoring for cloud-based services
 
-##🧼 Deactivating Environment
+## 🧼 Deactivating Environment
+
 ```bash
 deactivate
 ```
