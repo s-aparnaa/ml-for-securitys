@@ -5,9 +5,12 @@ This project helps detect **subdomain hijacking** by building a DNS graph and id
 ---
 
 ## 📁 Folder Structure
-dns-hijack-detector/        
+dns-hijack-detector/     
+   
 ├── data/
+
 │ └── resolved_records.json # CNAME mappings (generated)
+
 ├── src/
 │ ├── collect_subdomains.py # Fetch subdomains from crt.sh
 │ ├── resolve_cname.py # Resolve CNAME of subdomains
